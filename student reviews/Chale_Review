@@ -1,0 +1,61 @@
+#####################
+# Review Categories #
+#####################
+
+- Accuracy
+  - Are the results accurate?
+     #Market time is verified accurate. 
+     #I did not verify the "functions requiring authorization." 
+     
+  - Is it clear how the results were computed?
+    # Based on the examples provided, the functions appear to transmit requests and receieve data from the API. 
+
+- Compilation
+  - Did the analytic work? (i.e. install correctly, startup correctly)
+    # Seemless install.
+    # Each of the three functions I tested performed as expected.
+    
+  - Were errors encountered when executing code according to the documentation?
+    # Documentation for each of the three functions were nicely formatted as was the README. 
+    # Specifically add input arguments (and lack of input arguments) to the function documentation
+    # Examples in documentation were useful.
+    # add git install instructions to README
+- Ease of use
+  - Is it clear how to use the analytic? (i.e. is the documentation clear)
+    # The three functions I tested were easy to use. Consistent with documentation.
+  - Are the visualizations/plots interpretable?
+    # No visualizations in the non-auth functions. None that I know of in the auth functions
+    # The file structure of the git repository is clean and easy navigate however I would advocate to 
+    # use the standard file structure from the course notes.
+
+##############
+# Assessment #
+##############
+
+# I could not find proposal 2 in the repository so I assume full credit for accomplishing tasks. As you continue your coursework,
+#you may consider incorporating some data analytics (descriptive/predictive/prescriptive analysis) to your package.
+#Adding some data visualization would bring this package to the next level. 47/50, Outstanding!
+
+##########
+# Rubric #
+##########
+
+- Outstanding – ready to publish/deploy (50 pts)
+  - All proposal tasks completed
+  - Documentation is thorough and clear
+  - No errors or warnings during build/use
+
+- Excellent – very little rework required (45 pts)
+  - Few proposal tasks incomplete
+  - Documentation is clear and mostly complete
+  - Minor errors or warnings during build/use
+
+- Satisfactory – extensive rework required (40 pts)
+  - Several proposal tasks incomplete
+  - Documentation is limited and/or poorly written
+  - Severe errors during build or in use
+
+- Unsatisfactory – complete restart required (35 pts)
+  - Little progress made on proposal tasks
+  - Little to no documentation
+  - Cannot be compiled, unusable
